@@ -9,7 +9,7 @@ fn main() {
         DefaultPlugins
             .set(WindowPlugin {
                 primary_window: Some(Window {
-                    title: "Rust boids".into(),
+                    title: "Rust Game of Life".into(),
                     resolution: (WINDOW_WIDTH, WINDOW_HEIGHT).into(),
                     ..default()
                 }),
